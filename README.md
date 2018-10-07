@@ -2,9 +2,7 @@
 
 ### **1、无root权限安装Python**
 
-​	参考：https://blog.csdn.net/salonhuang/article/details/70049544
-
-参考：<https://blog.csdn.net/salonhuang/article/details/70049544>
+​参考：<https://blog.csdn.net/salonhuang/article/details/70049544>
 
 ```shell
     cd /mnt/project/python3.5/bin/
@@ -17,7 +15,7 @@
 ​	安装完后会报错
 
 ```bash
-    ./python3.5: error while loading shared libraries: libpython3.5m.so.1.0: cannot open shared 	object file: No such file or directory
+    ./python3.5: error while loading shared libraries: libpython3.5m.so.1.0: cannot open shared object file: No such file or directory
 ```
 
 ​	使用以下命令
@@ -97,7 +95,7 @@
 ​	(1)安装django：
 
 ```shell
-	pip install django
+    pip install django
 ```
 
 ​	(2)克隆Django项目：
@@ -109,9 +107,9 @@
 ​	(3)为项目新建python虚拟环境：
 
 ```shell
-	pip install virtualenv
+    pip install virtualenv
 
-	virtualenv -p /usr/bin/python3 envname
+    virtualenv -p /usr/bin/python3 envname
 ```
 
 ​	(4)用pip给虚拟环境安装相关的Python包：
@@ -156,13 +154,13 @@
 ​	  2)设置admin
 
 ```shell
-	python manage.py createsuperuser
+    python manage.py createsuperuser
 ```
 
 ​	  3)运行基因数据载入脚本
 
 ```shell
-	python help_script/import_genereg.py
+    python help_script/import_genereg.py
 ```
 
 ​	(2)设置配置文件(settings)的相关内容:DB_PATH ,software_FILE,TOOLS等
